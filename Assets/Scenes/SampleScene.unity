@@ -535,6 +535,105 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 806521371667390657, guid: 0996bc1b3c637824a9b9905998fb4e1f, type: 3}
   m_PrefabInstance: {fileID: 707911148}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &817635610
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 817635611}
+  - component: {fileID: 817635612}
+  - component: {fileID: 817635613}
+  m_Layer: 0
+  m_Name: Weapon Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &817635611
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 817635610}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1075798093}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &817635612
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 817635610}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 1.5560668, y: 1.973991}
+      - {x: 0.056887865, y: 2.0050118}
+      - {x: 0.87257516, y: 0.91775376}
+      - {x: 0.8314173, y: 0.30901694}
+      - {x: -0.17060965, y: -0.7710921}
+      - {x: 1.2294918, y: -0.7300025}
+      - {x: 1.8393096, y: -0.2591048}
+      - {x: 1.9739538, y: 0.5435677}
+      - {x: 1.9371058, y: 1.2192165}
+  m_UseDelaunayMesh: 0
+--- !u!114 &817635613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 817635610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84467e1ed3cc3c0438a6c4b6c104ec39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &885897169
 GameObject:
   m_ObjectHideFlags: 0
@@ -789,6 +888,7 @@ Transform:
   m_Children:
   - {fileID: 885897170}
   - {fileID: 128423487}
+  - {fileID: 817635611}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1075798094
@@ -1445,6 +1545,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slashAnimPrefab: {fileID: 8817876619091977171, guid: 4593224385bee2c4dafe50cf4dd21f84, type: 3}
   slashAnimSpawnPoint: {fileID: 1766426627}
+  weaponCollider: {fileID: 817635611}
 --- !u!1001 &2050348976
 PrefabInstance:
   m_ObjectHideFlags: 0
