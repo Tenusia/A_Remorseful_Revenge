@@ -3534,7 +3534,70 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741826
-  m_AnimatedTiles: {}
+  m_AnimatedTiles:
+  - first: {x: -9, y: -6, z: 0}
+    second:
+      serializedVersion: 2
+      m_AnimatedSprites:
+      - {fileID: -1690755988, guid: 8aaa46dd5033f7540b8011b58ac5d223, type: 3}
+      - {fileID: -144309278, guid: af5301cfa6874194e9f36e85cc448f0e, type: 3}
+      m_AnimationSpeed: 1
+      m_AnimationTimeOffset: 0
+      m_Flags: 0
+  - first: {x: -7, y: -5, z: 0}
+    second:
+      serializedVersion: 2
+      m_AnimatedSprites:
+      - {fileID: -1690755988, guid: 8aaa46dd5033f7540b8011b58ac5d223, type: 3}
+      - {fileID: -144309278, guid: af5301cfa6874194e9f36e85cc448f0e, type: 3}
+      m_AnimationSpeed: 1
+      m_AnimationTimeOffset: 0
+      m_Flags: 0
+  - first: {x: 8, y: -2, z: 0}
+    second:
+      serializedVersion: 2
+      m_AnimatedSprites:
+      - {fileID: -1690755988, guid: 8aaa46dd5033f7540b8011b58ac5d223, type: 3}
+      - {fileID: -144309278, guid: af5301cfa6874194e9f36e85cc448f0e, type: 3}
+      m_AnimationSpeed: 1
+      m_AnimationTimeOffset: 0
+      m_Flags: 0
+  - first: {x: 9, y: -1, z: 0}
+    second:
+      serializedVersion: 2
+      m_AnimatedSprites:
+      - {fileID: -1690755988, guid: 8aaa46dd5033f7540b8011b58ac5d223, type: 3}
+      - {fileID: -144309278, guid: af5301cfa6874194e9f36e85cc448f0e, type: 3}
+      m_AnimationSpeed: 1
+      m_AnimationTimeOffset: 0
+      m_Flags: 0
+  - first: {x: 10, y: 0, z: 0}
+    second:
+      serializedVersion: 2
+      m_AnimatedSprites:
+      - {fileID: -1690755988, guid: 8aaa46dd5033f7540b8011b58ac5d223, type: 3}
+      - {fileID: -144309278, guid: af5301cfa6874194e9f36e85cc448f0e, type: 3}
+      m_AnimationSpeed: 1
+      m_AnimationTimeOffset: 0
+      m_Flags: 0
+  - first: {x: 0, y: 7, z: 0}
+    second:
+      serializedVersion: 2
+      m_AnimatedSprites:
+      - {fileID: -1690755988, guid: 8aaa46dd5033f7540b8011b58ac5d223, type: 3}
+      - {fileID: -144309278, guid: af5301cfa6874194e9f36e85cc448f0e, type: 3}
+      m_AnimationSpeed: 1
+      m_AnimationTimeOffset: 0
+      m_Flags: 0
+  - first: {x: 2, y: 8, z: 0}
+    second:
+      serializedVersion: 2
+      m_AnimatedSprites:
+      - {fileID: -1690755988, guid: 8aaa46dd5033f7540b8011b58ac5d223, type: 3}
+      - {fileID: -144309278, guid: af5301cfa6874194e9f36e85cc448f0e, type: 3}
+      m_AnimationSpeed: 1
+      m_AnimationTimeOffset: 0
+      m_Flags: 0
   m_TileAssetArray:
   - m_RefCount: 0
     m_Data: {fileID: 0}
