@@ -81,6 +81,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7749459891547997420, guid: 20170e5db8d352140b45615743f34a2e, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7749459891547997420, guid: 20170e5db8d352140b45615743f34a2e, type: 3}
       propertyPath: RotationModule.curve.minScalar
       value: 3.1415925
       objectReference: {fileID: 0}
