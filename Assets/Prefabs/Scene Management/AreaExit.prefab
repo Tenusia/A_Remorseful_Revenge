@@ -4777,7 +4777,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6d56bc489737e2a45831fb3cfd984222, type: 2}
+  - {fileID: 2100000, guid: c88cf2768fd7ca8469e4c8ea39b062fe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4872,7 +4872,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feef1156a4afb7e4fae1946192e42299, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  transitionName: 
+  transitionName: South_Entrance
 --- !u!1 &7759155110755836156
 GameObject:
   m_ObjectHideFlags: 0
@@ -4965,5 +4965,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4101f23f1d09ff74da6feb3884935be3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: 
-  sceneTransitionName: 
+  sceneToLoad: Scene_2
+  sceneTransitionName: North_Entrance
