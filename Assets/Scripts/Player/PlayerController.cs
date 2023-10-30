@@ -9,6 +9,8 @@ public class PlayerController : Singleton<PlayerController>
     [SerializeField] private float moveSpeed = 4f;
     [SerializeField] private float dashSpeed = 4f;
     [SerializeField] private TrailRenderer myTrailRenderer;
+    [SerializeField] private Transform weaponCollider;
+    [SerializeField] private Transform slashAnimSpawnPoint;
 
     private PlayerControls playerControls;
     private Vector2 movement;
@@ -45,6 +47,14 @@ public class PlayerController : Singleton<PlayerController>
     private void FixedUpdate() {
         AdjustPlayerFacingDirection();
         Move();
+    }
+
+    public Transform GetWeaponCollider() {
+        return weaponCollider;
+    }
+
+    public Transform GetSlashAnimSpawnPoint() {
+        return slashAnimSpawnPoint;
     }
 
     private void PlayerInput () {

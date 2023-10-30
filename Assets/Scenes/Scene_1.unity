@@ -6615,7 +6615,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f481e7b24da9114bb4475a77d01bb2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentActiveWeapon: {fileID: 0}
 --- !u!1001 &911814403
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7070,6 +7069,8 @@ MonoBehaviour:
   moveSpeed: 4
   dashSpeed: 4
   myTrailRenderer: {fileID: 356831078}
+  weaponCollider: {fileID: 817635611}
+  slashAnimSpawnPoint: {fileID: 1766426627}
 --- !u!95 &1075798096
 Animator:
   serializedVersion: 5
