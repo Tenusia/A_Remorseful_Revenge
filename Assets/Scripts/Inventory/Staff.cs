@@ -4,8 +4,18 @@ using UnityEngine;
 
 public class Staff : MonoBehaviour, IWeapon
 {
+    [SerializeField] private WeaponInfo weaponInfo;
+    
     private void Update() {
         MouseFollowWithOffset();
+    }
+
+    public void Attack() {
+        Debug.Log("STAFF");
+    }
+
+    public WeaponInfo GetWeaponInfo() {
+        return weaponInfo;
     }
 
     private void MouseFollowWithOffset() {
@@ -20,10 +30,5 @@ public class Staff : MonoBehaviour, IWeapon
         else {
             ActiveWeapon.Instance.transform.rotation = Quaternion.Euler(0, 0, angle);
         }
-    }
-    
-    public void Attack() {
-        Debug.Log("STAFF");
-        ActiveWeapon.Instance.ToggleIsAttacking(false);
     }
 }
