@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Red
+  m_Name: Magic lazer red
   m_Shader: {fileID: -6465566751694194690, guid: dfab5d900d82ade45a5e5b9ec7c1256d, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -55,5 +55,5 @@ Material:
     m_Ints: []
     m_Floats: []
     m_Colors:
-    - _Color: {r: 12.37736, g: 0.13829452, b: 0, a: 0}
+    - _Color: {r: 2.1185472, g: 0.15073438, b: 0.12991098, a: 0}
   m_BuildTextureStacks: []
