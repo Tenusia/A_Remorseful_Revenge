@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class EnemyPathfinding : MonoBehaviour
 {
@@ -9,16 +10,24 @@ public class EnemyPathfinding : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 moveDir;
     private Knockback knockback;
+    private SpriteRenderer spriteRenderer;
 
     private void Awake() {
         knockback = GetComponent<Knockback>();
         rb = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     private void FixedUpdate() {
         if (knockback.GettingKnockedBack) {return;}
 
         rb.MovePosition(rb.position + moveDir * (moveSpeed * Time.fixedDeltaTime));
+
+        if (moveDir.x < 0) {
+            spriteRenderer.flipX = true;
+        } else {
+            spriteRenderer.flipX = false;
+        }
     }
 
     public void MoveTo(Vector2 targetPosition) {
