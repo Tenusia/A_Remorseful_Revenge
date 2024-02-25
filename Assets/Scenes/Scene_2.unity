@@ -180,6 +180,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ghost (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8224590067677006006, guid: bba35f54226a1df4d96dda774b802147, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21636,6 +21640,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ghost
       objectReference: {fileID: 0}
+    - target: {fileID: 8224590067677006006, guid: bba35f54226a1df4d96dda774b802147, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21820,6 +21828,10 @@ PrefabInstance:
     - target: {fileID: 8224590067677006006, guid: bba35f54226a1df4d96dda774b802147, type: 3}
       propertyPath: m_Name
       value: Ghost (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224590067677006006, guid: bba35f54226a1df4d96dda774b802147, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22248,6 +22260,42 @@ PrefabInstance:
     - target: {fileID: 2139517548053198560, guid: bba35f54226a1df4d96dda774b802147, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7519282864237813219, guid: bba35f54226a1df4d96dda774b802147, type: 3}
+      propertyPath: stagger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7519282864237813219, guid: bba35f54226a1df4d96dda774b802147, type: 3}
+      propertyPath: restTime
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7519282864237813219, guid: bba35f54226a1df4d96dda774b802147, type: 3}
+      propertyPath: oscillate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7519282864237813219, guid: bba35f54226a1df4d96dda774b802147, type: 3}
+      propertyPath: burstCount
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7519282864237813219, guid: bba35f54226a1df4d96dda774b802147, type: 3}
+      propertyPath: angleSpread
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 7519282864237813219, guid: bba35f54226a1df4d96dda774b802147, type: 3}
+      propertyPath: bulletMoveSpeed
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7519282864237813219, guid: bba35f54226a1df4d96dda774b802147, type: 3}
+      propertyPath: protilesPerBurst
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7519282864237813219, guid: bba35f54226a1df4d96dda774b802147, type: 3}
+      propertyPath: startingDistance
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7519282864237813219, guid: bba35f54226a1df4d96dda774b802147, type: 3}
+      propertyPath: timeBetweenBursts
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8224590067677006006, guid: bba35f54226a1df4d96dda774b802147, type: 3}
       propertyPath: m_Name
