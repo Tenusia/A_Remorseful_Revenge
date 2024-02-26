@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7856552392232185226}
   - component: {fileID: 1512841779824069547}
   m_Layer: 0
-  m_Name: Grape Death VFX 1
+  m_Name: Grape Death VFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
