@@ -18,6 +18,7 @@ public class PlayerController : Singleton<PlayerController>
     private Animator myAnimator;
     private SpriteRenderer mySpriteRender;
     private Knockback knockback;
+    private Shop shop;
     private float startingMoveSpeed;
 
     private bool facingLeft = false;
@@ -108,5 +109,15 @@ public class PlayerController : Singleton<PlayerController>
         myTrailRenderer.emitting = false;
         yield return new WaitForSeconds(dashCD);
         isDashing = false;
+    }
+
+    private void OnTriggerStay2D(Collider2D other) {
+        if (playerControls.Movement.Interact.WasPressedThisFrame() && other.tag == "Shop") {
+            shop = other.gameObject.GetComponent<Shop>();
+            shop?.OpenShop();
+            // Debug.Log("SHOPPING!!!!!");
+            //OPEN UI for shop
+            //OPEN Help for how to interact
+        }
     }
 }

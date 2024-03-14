@@ -19,4 +19,16 @@ public class EconomyManager : Singleton<EconomyManager>
 
         goldText.text = currentGold.ToString("D3");
     }
+
+    public void WithdrawCurrentGold () {
+        if (currentGold <= 0) { return; }
+        
+        currentGold -= 1;
+
+        if (goldText == null) {
+            goldText = GameObject.Find(COIN_AMOUNT_TEXT).GetComponent<TMP_Text>();
+        }
+
+        goldText.text = currentGold.ToString("D3");
+    }
 }
